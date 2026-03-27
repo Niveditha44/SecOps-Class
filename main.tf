@@ -8,7 +8,7 @@ terraform {
     bucket         = "testing-s3-terraform-niv"
     key            = "workspace.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "dynamodb-state-locking"
+    #dynamodb_table = "dynamodb-state-locking"
   }
 }
 
